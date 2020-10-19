@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-image: url("https://c2.staticflickr.com/4/3154/2682821758_6527acbfed_z.jpg?zz=1");
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+/* image for "CLICK HERE" */
+.icons {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+/* image for "CLICK HERE" */
+.icons:hover {
+	background-color:#5cbf2a;
+}
+/* image for "CLICK HERE" */
+.icons:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* two columns/boxes next to each other */
+nav {
+  float: left;
+  width: 20%;
+  background: #b1dbd5;
+  height: 700px;
+  padding: 20px;
+}
+
+/* left-side navigation menus*/
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* paragraph styling */
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  height: 700px;
+  background-color: #d5f2ee;
+}
+
+/* neater columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-image: url("https://c2.staticflickr.com/4/3154/2682821758_6527acbfed_z.jpg?zz=1");
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* columns on top of each other */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}

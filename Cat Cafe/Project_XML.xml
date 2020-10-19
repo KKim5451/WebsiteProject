@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<food_informations>
+	<coffee>
+		<name>Coffee</name>
+		<title>Recommended Suggestion</title>
+		<info>Up to 400 milligrams (mg) of caffeine a day is safe for most healthy adults.</info>
+	</coffee>
+	<ice_cream>
+		<name>Ice Cream</name>
+		<title>Recommended Suggestion</title>
+		<info>Recommends that women should limit sugar intake to 20 grams a day, men should stop at 36 grams and children shouldn't have more than 12 grams daily.</info>
+	</ice_cream>
+	<cookies>
+		<name>Cookies</name>
+		<title>Recommended Suggestion</title>
+		<info>Suggested one or two small cookies per daily if absolutely needed. Cookies may make you fat.</info>
+	</cookies>
+</food_informations>
